@@ -1,0 +1,93 @@
+
+body {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0202; 
+}
+
+
+
+.container.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+
+.container.dark {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+.container {
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+
+h1 {
+  font-size: 4rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #189dba; 
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.input{
+  text-align: center;
+  margin-right:0 ;
+  padding: 15px;
+  color: #189dba;
+  width :400px;
+  border-color: #189dba;
+  border-radius: 8px;
+  font-size: large;
+  font-size: 24px;
+  background-color: #ffffff00;
+}
+.timer {
+  font-size: 6rem;
+  color: #189dba; 
+  font-weight: bold;
+
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  margin-bottom: 30px;
+
+
+}
+.clock{
+  border: 2px solid #189dba; 
+ 
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid;
+  border-color: #189dba;
+  color: #189dba;
+  transition: background-color 0.3s ease;
+}
+
+.theme-button{
+  border-radius: 50%;
+  margin-top: 50px;
+
+}
+
+button:hover {
+  background-color: #189dba;
+}
+
+
